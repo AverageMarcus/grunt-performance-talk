@@ -1,1 +1,25 @@
-["index.md"]
+[
+    "index.html",
+    "disclaimer.html",
+    "background.html",
+    "game.html",
+    "benjaminbenben.html",
+    "whiteoctober.html",
+    "ryanbrooks.html",
+    "tomlane.html",
+    "js-oxford.html",
+    "js-oxford2.html",
+    "grunt.html",
+    "imagemin.html",
+    "imagemin2.html",
+    "jpeg-recompress.html",
+    "jpeg-recompress2.html",
+    "uncss.html",
+    "uncss2.html",
+    "cssmin.html",
+    "cssmin2.html",
+    "htmlmin.html",
+    "htmlmin2.html",
+    "more-work.html",
+    "final.html"
+]

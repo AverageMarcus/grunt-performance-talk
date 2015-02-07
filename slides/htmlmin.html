@@ -1,0 +1,31 @@
+<h3>HTMLMin</h3>
+
+<p style="text-align:left">
+  Install using:
+  <pre><code class="bash">npm install grunt-contrib-htmlmin --save-dev</code></pre>
+</p>
+<p style="text-align:left">
+  Example Gruntfile.js:
+  <pre><code data-trim class="javascript">
+htmlmin: {
+  dist: {
+    options: {
+      collapseWhitespace: true, // Remove excess spaces
+      removeComments: true, // Remove all comments
+      removeEmptyAttributes: true,
+      removeRedundantAttributes: true, // Remove attributes with default values
+      removeScriptTypeAttributes: true,
+      removeStyleLinkTypeAttributes: true,
+      minifyJS: true, // In script tags
+      minifyCSS: true // In style tags
+    },
+    files: [{
+      expand: true, // Enable dynamic expansion
+      cwd: '_site/', // Where to search for files
+      src: ['*.html','**/*.html'], // What files to minify
+      dest: '_site/' // Where to save minified files (overwrite)
+    }]
+  }
+}
+  </code></pre>
+</p>

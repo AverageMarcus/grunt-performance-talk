@@ -1,0 +1,25 @@
+<h3>CSSMin</h3>
+
+<p style="text-align:left">
+  Install using:
+  <pre><code class="bash">npm install grunt-contrib-cssmin --save-dev</code></pre>
+</p>
+<p style="text-align:left">
+  Example Gruntfile.js:
+  <pre><code data-trim class="javascript">
+...
+cssmin: {
+  dist: {
+    expand: true, // Enable dynamic expansion
+    cwd: '_site/assets/', // Where to search for files
+    src: ['*.css'], // What files to minify
+    dest: '_site/assets/' // Where to save minified files (overwrite)
+  }
+}
+...
+  </code></pre>
+</p>
+
+<aside class="notes">
+  This config overwrites existing files.
+</aside>

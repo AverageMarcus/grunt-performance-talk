@@ -48,21 +48,21 @@ https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fjsoxfo
 * Desktop: 70/100
 
 ## Ben - http://benjaminbenben.com/
-http://www.webpagetest.org/result/150130_Q0_1885/
-* Speed Index: 8003
-* Load time: 9.051s
+http://www.webpagetest.org/result/150201_ZQ_KK4/
+* Speed Index: 4907
+* Load time: 6.531s
 
 ## White October - https://www.whiteoctober.co.uk/
-http://www.webpagetest.org/result/150130_J9_18AY/
-* Speed Index: 2104
-* Load time: 2.723s
+http://www.webpagetest.org/result/150201_4Y_KPS/
+* Speed Index: 1200
+* Load time: 1.991s
 
 ## Ryan Brooks - http://ryanbrooks.co.uk/
-http://www.webpagetest.org/result/150130_4W_18CM/
-* Speed Index: 4700
-* load time: 4.953s
+http://www.webpagetest.org/result/150201_PR_KW8/
+* Speed Index: 1686
+* load time: 1.838s
 
 ## Tom Lane - http://tomlane.me/
-http://www.webpagetest.org/result/150130_Y7_18DH/
-* Speed Index: 1269
-* Load time: 1.792s
+http://www.webpagetest.org/result/150201_9R_KW3/
+* Speed Index: 1264
+* Load time: 1.673s

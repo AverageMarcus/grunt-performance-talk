@@ -1,0 +1,27 @@
+<h3>UnCSS</h3>
+
+<p style="text-align:left">
+  Install using:
+  <pre><code class="bash">npm install grunt-uncss --save-dev</code></pre>
+</p>
+<p style="text-align:left">
+  Example Gruntfile.js:
+  <pre><code data-trim class="javascript">
+...
+uncss: {
+  dist: {
+    options: {
+      stylesheets: ['_site/assets/style.css'] // List of stylesheets to clean up
+    },
+    files: {
+      '_site/assets/style.css': ['*.html', '**/*.html'] // What files to check for usage
+    }
+  }
+}
+...
+  </code></pre>
+</p>
+
+<aside class="notes">
+  This config is a destructive change. Files can be changed to write out to something else.
+</aside>

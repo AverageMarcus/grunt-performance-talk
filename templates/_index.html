@@ -12,27 +12,27 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
         <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.min.css">
-    
+
         <link rel="stylesheet" href="bower_components/reveal.js/css/theme/solarized.css" id="theme">
-    
 
         <!-- For syntax highlighting -->
         <link rel="stylesheet" href="bower_components/reveal-highlight-themes/styles/zenburn.css" id="highlight-theme">
-
-        <!-- If the query includes 'print-pdf', use the PDF print sheet -->
-        <script>
-          if( window.location.search.match( /print-pdf/gi ) ) {
-            var link = document.createElement( 'link' );
-                link.rel = 'stylesheet';
-                link.type = 'text/css';
-                link.href = 'bower_components/reveal.js/css/print/pdf.css';
-                document.getElementsByTagName( 'head' )[0].appendChild( link );
-            }
-        </script>
-
-        <!--[if lt IE 9]>
-        <script src="lib/js/html5shiv.js"></script>
-        <![endif]-->
+        <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+        <style>
+          .reveal i{
+            font-family: 'FontAwesome';
+            font-style: normal;
+          }
+          div.well{
+            display: block;
+            overflow-x: auto;
+            padding: 0.5em;
+            background: #3f3f3f;
+            color: #dcdcdc;
+            font-size:0.7em;
+            text-align: left;
+          }
+        </style>
     </head>
 
     <body>
@@ -55,6 +55,9 @@
                 <% }); %>
             </div>
 
+            <footer style="text-align:right;font-size:0.5em;position:fixed;bottom:5px;right:5px;">
+              Slides available at: <a href="http://averagemarcus.github.io/grunt-performance-talk">http://averagemarcus.github.io/grunt-performance-talk</a>
+            </footer>
         </div>
 
         <script src="bower_components/reveal.js/lib/js/head.min.js"></script>
@@ -64,13 +67,15 @@
             // Full list of configuration options available here:
             // https://github.com/hakimel/reveal.js#configuration
             Reveal.initialize({
-                controls: true,
+                controls: false,
                 progress: true,
                 history: true,
                 center: true,
+                transitionSpeed: 'fast',
+                width: '90%',
 
                 theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-                transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+                transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
 
                 // Optional libraries used to extend on reveal.js
                 dependencies: [
@@ -87,7 +92,6 @@
                 ]
             });
         </script>
-
     </body>
 
 </html>
