@@ -1,0 +1,20 @@
+<h3>gh-pages</h3>
+
+<p style="text-align:left">
+  Install using:
+  <pre><code class="bash">npm install grunt-gh-pages --save-dev</code></pre>
+</p>
+<p style="text-align:left">
+  Example Gruntfile.js:
+  <pre><code data-trim class="javascript">
+...
+  'gh-pages': {
+    options: {
+      base: '_site', // Folder of file to commit to gh-pages
+      message: 'Pushing to gh-pages' // Commit message
+    },
+    src: '**/*'
+  }
+...
+  </code></pre>
+</p>

@@ -1,0 +1,24 @@
+<h3>Above The Fold</h3>
+
+<p style="text-align:left">
+  Install using:
+  <pre><code class="bash">npm install grunt-criticalcss --save-dev</code></pre>
+</p>
+<p style="text-align:left">
+  Example Gruntfile.js:
+  <pre><code data-trim class="javascript">
+...
+criticalcss: {
+  extract: {
+      outputfile : './_site/assets/critical.css', // File that will contain above-the-fold css
+      filename: './_site/assets/style.css',
+      url : 'http://localhost:5000',
+      width : 1920, // Target screen width
+      height : 1080 // Target screen height
+  },
+}
+...
+  </code></pre>
+</p>
+
+<p><small><b>Note:</b> Above the fold optimization is a topic of debate, see: <a href="http://www.iamthefold.com/">http://www.iamthefold.com/</a></small></p>

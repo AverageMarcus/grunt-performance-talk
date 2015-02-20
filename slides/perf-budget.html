@@ -1,0 +1,24 @@
+<h3>Perf Budget</h3>
+
+<p style="text-align:left">
+  Install using:
+  <pre><code class="bash">npm install grunt-perfbudget --save-dev</code></pre>
+</p>
+<p style="text-align:left">
+  Example Gruntfile.js:
+  <pre><code data-trim class="javascript">
+perfbudget: {
+  default: {
+    options: {
+      url: 'http://yourwebsite.com',
+      wptInstance: 'http://PRIVATE_INSTANCE.com',
+      budget: {
+        visualComplete: '3000',
+        SpeedIndex: '1000'
+      }
+    }
+  }
+}  
+  </code></pre>
+</p>
+<p><small>Note: To have this as part of your dev workflow you'll want to run a privately hosted WebPageTest instance, see: <a href="https://sites.google.com/a/webpagetest.org/docs/private-instances">https://sites.google.com/a/webpagetest.org/docs/private-instances</small></a>
