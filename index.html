@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>Grunt Performance</title>
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.css">
+        <link rel="stylesheet" href="bower_components/reveal.js/css/theme/black.css" id="theme">
+
+        <!-- For syntax highlighting -->
+        <link rel="stylesheet" href="bower_components/reveal-highlight-themes/styles/zenburn.css" id="highlight-theme">
+
+        <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+        <style>
+          .reveal i{
+            font-family: 'FontAwesome';
+            font-style: normal;
+          }
+          div.well{
+            display: block;
+            overflow-x: auto;
+            padding: 0.5em;
+            background: #3f3f3f;
+            color: #dcdcdc;
+            font-size:0.7em;
+            text-align: left;
+          }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="reveal">
+
+            <div class="slides">
+
+                
+                    
+                        
+    <section data-html="slides/index.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/disclaimer.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/background.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/game.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/benjaminbenben.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/whiteoctober.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/ryanbrooks.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/tomlane.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/js-oxford-image.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/js-oxford.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/js-oxford2.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/grunt.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/imagemin.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/imagemin2.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/jpeg-recompress.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/jpeg-recompress2.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/uncss.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/uncss2.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/cssmin.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/cssmin2.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/htmlmin.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/htmlmin2.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/speed-index.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/bonus-slides.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/gh-pages.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/above-the-fold.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/perf-budget.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/more-work.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/final.html"></section>
+
+
+                    
+                    
+                
+            </div>
+
+            <footer style="text-align:right;font-size:0.4em;position:fixed;bottom:5px;right:5px;">
+              Slides available at: <a href="http://averagemarcus.github.io/grunt-performance-talk">http://averagemarcus.github.io/grunt-performance-talk</a>
+            </footer>
+        </div>
+
+        <script src="bower_components/reveal.js/lib/js/head.min.js"></script>
+        <script src="bower_components/reveal.js/js/reveal.js"></script>
+        <script>
+            // Configure Reveal
+            // Full list of configuration options available here:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: false,
+                progress: true,
+                history: true,
+                center: true,
+                transitionSpeed: 'fast',
+                width: '90%',
+
+                theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+                transition: Reveal.getQueryHash().transition || 'none' || 'slide', // default/cube/page/concave/zoom/linear/fade/none
+
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                    { src: 'bower_components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: 'bower_components/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'bower_components/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'bower_components/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'bower_components/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+                    { src: 'js/loadhtmlslides.js', condition: function() { return !!document.querySelector( '[data-html]' ); } }
+                ]
+            });
+        </script>
+    </body>
+
+</html>
