@@ -2,7 +2,12 @@
     "index.html",
     "disclaimer.html",
     "background.html",
-    "game.html",
+    {
+      "filename" : "game.html",
+      "attr" : {
+        "data-background" :"-webkit-radial-gradient(center, ellipse cover, rgba(13,31,59,1) 0%, rgba(13,31,59,1) 5%, rgba(0,0,0,1) 100%)" 
+      }
+    },
     "benjaminbenben.html",
     "whiteoctober.html",
     "ryanbrooks.html",
