@@ -5,13 +5,15 @@
     {
       "filename" : "game.html",
       "attr" : {
-        "data-background" :"-webkit-radial-gradient(center, ellipse cover, rgba(13,31,59,1) 0%, rgba(13,31,59,1) 5%, rgba(0,0,0,1) 100%)" 
+        "data-background" :"-webkit-radial-gradient(center, ellipse cover, rgba(13,31,59,1) 0%, rgba(13,31,59,1) 5%, rgba(0,0,0,1) 100%)"
       }
     },
     "benjaminbenben.html",
     "whiteoctober.html",
     "ryanbrooks.html",
     "tomlane.html",
+    "dan.html",
+    "google.html",
     "js-oxford-image.html",
     "js-oxford.html",
     "grunt.html",
@@ -19,10 +21,12 @@
     "imagemin2.html",
     "jpeg-recompress.html",
     "jpeg-recompress2.html",
+    "image-compare.html",
     "uncss.html",
     "uncss2.html",
     "cssmin.html",
     "cssmin2.html",
+    "cssmin3.html",
     "htmlmin.html",
     "htmlmin2.html",
     "speed-index.html",
